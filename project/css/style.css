@@ -59,7 +59,8 @@ ul {
 
 ================================================== */
 .header {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 38px; }
 
 .logo__link {
   font-size: 32px;
@@ -162,3 +163,41 @@ ul {
 .menu-link:hover {
   background: #3887cf;
   color: white; }
+
+.services {
+  margin-bottom: 30px; }
+
+.services-information {
+  background: url(../img/bg-information.jpg) 100% 100% no-repeat;
+  height: 370px;
+  background-position: center;
+  padding: 102px 49px 93px;
+  color: white; }
+  .services-information__title {
+    font-family: "Geometria-Heavy", san-serif;
+    font-size: 45px;
+    color: inherit;
+    letter-spacing: -1.13px;
+    line-height: 55px;
+    margin-bottom: 28px; }
+  .services-information__par {
+    color: inherit;
+    font-family: "Geometria", san-serif;
+    font-size: 18px;
+    font-weight: 700; }
+
+.general-aside {
+  background: #f4f4f4;
+  width: 278px;
+  height: 550px; }
+
+.products-menu__title {
+  background: #04569f;
+  width: 100%;
+  height: 75px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Geometria", san-serif;
+  color: white;
+  padding-top: 29px; }
