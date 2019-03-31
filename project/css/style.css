@@ -456,7 +456,9 @@ ul {
 
 .menu-footer {
   display: flex;
-  width: 100%; }
+  width: 100%;
+      margin-left: 2.052632%; 
+}
 
 .menu-footer__link:hover {
   color: #3887cf;
@@ -530,17 +532,19 @@ text-align: center;
 }
 .menu-footer {
   margin-top: 57px;
+      margin-left: 2.052632%;
 
 }
 .menu-footer__item{
-    width: 14.69%;
+   /* width: 14.69%;*/
+   padding: 0px 3%;
 }
 
 .menu-footer__link {
     color: #04569f;
     font-size: 16px;
     font-weight: 700;
-    padding:0px 0% 12px 41%;
+    padding:0px 0% 12px 0px;
     display: block;
 }
 @media (min-width:768px) and  (max-width:992px) {
@@ -838,4 +842,11 @@ line-height: initial;
     text-align: center;
 }
  
+.menu-footer {
+  margin-left: 0px;
+  flex-direction: column;
+}
+.menu-footer__item {
+  text-align: center;
+}
    }
