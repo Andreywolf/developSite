@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
 </head>
 
 <body>
@@ -175,7 +176,7 @@
                                     <li class="lis-item">Второй пункт этого маркированного списка содержит в себе 110 символов с пробелами, или 95 знаков без пробелов;</li>
                                     <li class="lis-item">Третий пункт этого маркированного списка содержит в себе 110 символов с пробелами, или 95 знаков без пробелов;</li>
                                 </ul>
-                                </p>
+                               
                             </div>
                         </section>
                         <div class="content-section">
@@ -196,7 +197,7 @@
             <div class="brands">
                 <div class="our-brands">Бренды обслуживаемого оборудования</div>
                 <div id="carousel" class="carousel">
-                    <button class="arrow prev">⇦</button>
+                    <div class="arrow-left arrows prev"></div>
                     <div class="gallery">
                         <ul class="images">
                             <li><img src="img/logo-1.png"></li>
@@ -212,8 +213,9 @@
                             <li><img src="img/logo-2.png"></li>
                             <li><img src="img/logo-3.png" class="m-t"></li>
                         </ul>
+
                     </div>
-                    <button class="arrow next">⇨</button>
+                    <div class="arrows arrow-right  next "></div>
                 </div>
             </div>
         </div>
@@ -233,6 +235,8 @@
         </div>
     </footer> -->
     <!--  -->
+ 
+
     <script>
     /* этот код помечает картинки, для удобства разработки */
     var lis = document.getElementsByTagName('li');
